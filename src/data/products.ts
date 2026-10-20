@@ -1,0 +1,208 @@
+import { Product } from '../types';
+
+export const HERO_IMAGE = '/assets/aistudio/IMG_20260920_130326_428d80ba.jpg';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 'sleeve-purple-cyclops',
+    name: 'Ljubičasti Kiklop — Jednooko Čudovište',
+    category: 'fantazija',
+    tagline: 'Ručno vajana ljubičasta kreatura sa roščićima i belim zubima',
+    priceRsd: 600,
+    priceEur: 5,
+    image: '/assets/aistudio/IMG_20261008_193845_549_620d50b7.webp',
+    stock: 1,
+    badge: 'Ručni rad @mrvobazar',
+    description: 'Originalna skulpturalna futrola iz radionice Mrvo Bazar, napravljena za najobičniji standardni upaljač. Izvajana isključivo od kvalitetne polimerne gline u retro ljubičastoj boji — sa jednim krupnim okom, bočnim roščićima i otvorenim ustima sa pojedinačno vajanim belim zubićima. Čim se običan upaljač potroši, samo ga izvučete i ubacite novi običan sa trafike!',
+    clayDetails: {
+      clayType: 'Čista polimerna glina bez dodataka',
+      finish: 'Mat zaštitni finiš',
+      bakingTemp: '130°C kontrolisano pečenje',
+      weight: '~35g',
+    },
+    features: [
+      'Pravljeno za najobičnije standardne upaljače sa kioska',
+      'Uključen nov puni upaljač spreman za kresanje',
+      'Večna futrola — lako se zameni kad nestane plina',
+      '100% ručni rad od čiste gline bez plastičnih kalupa',
+    ],
+  },
+  {
+    id: 'sleeve-blue-grumpy',
+    name: 'Plavi Grumpy Ogr — Namršteni Mrgud',
+    category: 'fantazija',
+    tagline: 'Ekspresivno naborano lice sa pretećim očnjacima',
+    priceRsd: 600,
+    priceEur: 5,
+    image: '/assets/aistudio/IMG_20260930_112002_877_bb0daf22.webp',
+    stock: 1,
+    badge: 'Unikat @mrvobazar',
+    description: 'Prepoznatljivi namršteni mrgud koji čuva tvoj upaljač da ga niko ne prisvoji. Ručno urezane bore na čelu i nosu, bele beonjače i zubići vajani od bele polimerne gline. Savršeno leži u ruci i odgovara običnom upaljaču.',
+    clayDetails: {
+      clayType: 'Plava polimerna glina',
+      finish: 'Mat reljefna struktura',
+      bakingTemp: '130°C sporo učvršćivanje',
+      weight: '~36g',
+    },
+    features: [
+      'Pravljeno za najobičniji upaljač sa trafike',
+      'Uključen novi puni upaljač',
+      'Otporno na toplotu plamena i uobičajene padove',
+      'Autorski rad radionice @mrvobazar',
+    ],
+  },
+  {
+    id: 'sleeve-crew-lineup',
+    name: 'MrvoBazar Ekipa — Izaberi Svog Ortaka',
+    category: 'fantazija',
+    tagline: 'Postava: Blesavko sa jezikom, Šaman, Retro Telefon, Žuti Brka & Narandžasti',
+    priceRsd: 600,
+    priceEur: 5,
+    image: '/assets/aistudio/IMG_20260920_130326_428d80ba.jpg',
+    stock: 5,
+    badge: 'Retro ekipa',
+    description: 'Kompletna šarena i retro postava Mrvo Bazar radionice! Svaki komad je pravljen za običan upaljač. Izaberi u napomeni koji lik želiš: 1. Plavi Blesavko sa isplaženim jezikom, 2. Zeleni Šaman sa krunom, 3. Retro Pink Telefon sa tasterima, 4. Žuti Brka sa cigarom, 5. Narandžasti stidljivi lik.',
+    clayDetails: {
+      clayType: 'Polimerna glina u retro i živim tonovima',
+      finish: 'Matirana zaštita',
+      bakingTemp: '130°C optimalno pečenje',
+      weight: '~34g po komadu',
+    },
+    features: [
+      'Napiši u napomeni koji ti se lik najviše dopada',
+      'Uključen novi puni običan upaljač',
+      'Svi detalji su 100% vajana polimerna glina',
+      'Direktno poručivanje i na Instagramu @mrvobazar',
+    ],
+  },
+  {
+    id: 'sleeve-retro-brick-phone',
+    name: 'Retro Telefon — "NEW TEXT ✉"',
+    category: 'boho',
+    tagline: 'Retro ciglica sa reljefnim tasterima i porukom na ekranu',
+    priceRsd: 600,
+    priceEur: 5,
+    image: '/assets/aistudio/IMG_20260920_130326_428d80ba.jpg',
+    stock: 2,
+    badge: 'Retro 90s',
+    description: 'Nostalgična futrola inspirisana starim telefonima sa tasterima. Na glinenom ekranu ispisano "NEW TEXT ✉", sa okruglim vajanim tasterima od brojeva 1 do 0. Duhovita i upečatljiva futrola za običan upaljač.',
+    clayDetails: {
+      clayType: 'Roze i bela polimerna glina',
+      finish: 'Glatka mat zaštita',
+      bakingTemp: '130°C',
+      weight: '~33g',
+    },
+    features: [
+      'Reljefni tasteri i retro ekran',
+      'Odgovara najobičnijem upaljaču',
+      'Uključen nov pun upaljač',
+      'Ručna izrada @mrvobazar',
+    ],
+  },
+  {
+    id: 'sleeve-green-shaman',
+    name: 'Zeleni Šaman — Totem Maska',
+    category: 'priroda',
+    tagline: 'Mistična maska sa reljefnom krunom od kamenčića od gline',
+    priceRsd: 600,
+    priceEur: 5,
+    image: '/assets/aistudio/IMG_20260920_130326_428d80ba.jpg',
+    stock: 1,
+    badge: 'Mistični totem',
+    description: 'Skulptura totemskog čuvara u retro maslinasto-zelenoj boji sa krunom od zrna gline i mističnim detaljem na grudima. Prijatna pod prstima i idealna za običan upaljač.',
+    clayDetails: {
+      clayType: 'Zelena polimerna glina',
+      finish: 'Mat finiš',
+      bakingTemp: '130°C',
+      weight: '~36g',
+    },
+    features: [
+      'Reljefna tekstura totema',
+      'Uključen običan upaljač spreman za rad',
+      'Čvrsta pečena masa',
+      'Trajna višekratna futrola',
+    ],
+  },
+  {
+    id: 'sleeve-blue-tongue',
+    name: 'Plavi Blesavko — Isplaženi Jezik',
+    category: 'fantazija',
+    tagline: 'Razrogačene oči i veliki ružičasti isplaženi jezik',
+    priceRsd: 600,
+    priceEur: 5,
+    image: '/assets/aistudio/IMG_20260920_130326_428d80ba.jpg',
+    stock: 2,
+    badge: 'Blesavi hit',
+    description: 'Najotkačeniji lik u kolekciji! Dve krupne kuglice za oči sa plavim zenicama i ogroman ružičasti jezik od gline koji viri iz usta. Napravljen za najobičniji upaljač, garantovano ulepšava svaki dan.',
+    clayDetails: {
+      clayType: 'Čista polimerna glina',
+      finish: 'Matirana zaštita',
+      bakingTemp: '130°C',
+      weight: '~35g',
+    },
+    features: [
+      'Jezik i oči su čvrsto stopljeni sa osnovom pre pečenja',
+      'Odgovara običnom upaljaču',
+      'Uključen nov pun upaljač',
+      'Rad majstora sa @mrvobazar',
+    ],
+  },
+];
+
+export const TESTIMONIALS = [
+  {
+    id: '1',
+    author: 'Jovana P.',
+    city: 'Novi Sad',
+    text: 'Uzela sam ljubičastog kiklopa preko Instagrama @mrvobazar i uživo je predivan! Za 600 dinara sa punim upaljačem unutra ovo je predobro.',
+    product: 'Ljubičasti Kiklop',
+    rating: 5,
+  },
+  {
+    id: '2',
+    author: 'Nikola D.',
+    city: 'Beograd',
+    text: 'Plavi mrgud mi je spasio upaljač — niko u društvu više ne sme da ga strpa u džep. Sve preporuke za Mrvo Bazar, stiglo za dan Post Expressom!',
+    product: 'Plavi Grumpy Ogr',
+    rating: 5,
+  },
+  {
+    id: '3',
+    author: 'Teodora V.',
+    city: 'Kragujevac',
+    text: 'Retro pink telefon sa tasterima je presladak! Zamenila sam upaljač bez ikakvih problema. Naručila sam još dva komada drugaricama.',
+    product: 'Retro Pink Telefon',
+    rating: 5,
+  },
+];
+
+export const FAQS = [
+  {
+    q: 'Kolika je cena po upaljaču?',
+    a: 'Cena je tačno 600 RSD po komadu! U cenu je uključen i potpuno nov, pun običan upaljač unutar same futrole.',
+  },
+  {
+    q: 'Za koje upaljače pravite futrole?',
+    a: 'Futrole pravimo isključivo za najobičnije standardne upaljače koji se kupuju na bilo kojoj trafici, pumpi ili u prodavnici. Nema potrebe da tražite skupe ili posebne modele — običan upaljač savršeno staje!',
+  },
+  {
+    q: 'Da li upaljač stiže u futroli?',
+    a: 'Da! Svaka Mrvo Bazar futrola stiže sa već postavljenim novim, potpuno punim običnim upaljačem. Čim preuzmete paket, spreman je za korišćenje.',
+  },
+  {
+    q: 'Šta radim kada se upaljač potroši?',
+    a: 'Futrola je trajna i višekratna. Kada se potroši plin, jednostavno uhvatite metalni vrh upaljača i lagano ga izvučete, a potom ugurate novi običan upaljač sa trafike. Futrola ostaje vaša zauvek.',
+  },
+  {
+    q: 'Od čega su napravljene futrole i da li su lomljive?',
+    a: 'Pravljene su od 100% čiste polimerne gline koja se peče u rerni na 130°C. Nakon pečenja glina postaje čvrsta i nije krhka kao keramika ili staklo, već podnosi svakodnevno nošenje u džepu ili torbi.',
+  },
+  {
+    q: 'Mogu li da naručim boju i lik po svojoj želji?',
+    a: 'Apsolutno! Možete izabrati lik i retro boju u našem konfiguratoru na sajtu (takođe 600 RSD) ili nam pisati direktno u DM na Instagramu @mrvobazar.',
+  },
+  {
+    q: 'Kako funkcioniše slanje i plaćanje u Srbiji?',
+    a: 'Pakete šaljemo kurirskom službom Post Express. Plaćanje je pouzećem u gotovini kuriru pri preuzimanju paketa (ili uplatom na račun). Poštarina je 350 RSD, a za sve porudžbine od 4 i više komada (2.400+ RSD) dostava je besplatna.',
+  },
+];

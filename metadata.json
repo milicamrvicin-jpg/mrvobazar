@@ -1,0 +1,6 @@
+{
+  "name": "Mrvo Bazar — Futrole za Upaljače",
+  "description": "Mrvo Bazar (@mrvobazar) — Unikatne ručno vajane futrole za upaljače od polimerne gline. Otkačeni karakteri, jednooki kiklopi, retro telefoni i izrada po meri.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

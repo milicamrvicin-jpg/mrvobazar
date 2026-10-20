@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Fredoka', cursive, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'Space Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF4E8;
+    color: #2E211A;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-fun {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Playful retro wiggle */
+@keyframes playful-wiggle {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+
+.animate-wiggle {
+  animation: playful-wiggle 3s ease-in-out infinite;
+}
+
+/* Warm retro scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F3E9D2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D95D39;
+  border-radius: 9999px;
+  border: 2px solid #F3E9D2;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BC4749;
+}
